@@ -2,8 +2,8 @@ import React from 'react';
 import './main.css';
 import ShopItemClass from './ShopItemClass/ShopItemClass.jsx';
 
-export const ShopItemFunc = () => {
+export const ShopItemFunc = ({item}) => {
   return (
-    <ShopItemClass/>
+    <ShopItemClass item={item}/>
   )
 }
